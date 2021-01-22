@@ -11,6 +11,7 @@ var wrongDOM = document.querySelector(".wrong")
 var correctDOM = document.querySelector(".correct");
 let correct=0;
 let wrong=0;
+let score=0
 
 
 

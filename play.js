@@ -131,6 +131,7 @@ function checkAnswer(){
         console.log('rightanswer!')
         correct++
         correctDOM.innerHTML=correct;
+        score+=100
     }
     else{
         console.log('wrong answer!!')
