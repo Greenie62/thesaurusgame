@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:relative;
+}
+
+
+header, footer{
+    text-align:center;
+    color:white;
+    text-shadow:1px 1px black;
+    background:linear-gradient(to right,rgb(15, 124, 15),rgb(31, 189, 31),rgb(146, 207, 146))
+}
+
+header{
+    height:10vh;
+}
+
+.headerh3{
+    left:15%;
+}
+
+footer{
+    height:5vh;
+}
+
+.gameArea{
+    height:85vh;
+    width:100%;
+    background:linear-gradient(to right,lightgray,silver)
+}
+
+.gameCard{
+    width:95%;
+    height:50%;
+    left:2%;
+    top:12%;
+    border:1px solid black;
+}
+
+.startModal, .gameModal{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:lemonchiffon;
+    box-shadow:2px 2px black;
+}
+
+.startModal{
+    z-index:2;
+}
+
+
+.startGameTextDiv{
+    width:75%;
+    height:50%;
+    left:12%;
+    top:12%;
+}
+
+.scareslideshow{
+    color:red;
+}
+
+.playBtn{
+    border-radius:50%;
+    width:70%;
+    height:20%;
+    background:rgb(10, 85, 10);
+    top:20%;
+    text-align:center;
+    letter-spacing:4px;
+    left:15%;
+    cursor:pointer;
+    text-transform:uppercase;
+    outline:none;
+}
+
+
+.clickBtn{
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+    background:green;
+    outline:none;
+}
+
+.playBtn:hover{
+    text-decoration:underline;
+}
+
+
+
+.gameModal{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.scoreSpan{
+    width:75%;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}

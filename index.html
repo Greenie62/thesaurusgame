@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Synonym Game</title>
+</head>
+<body>
+    <header>
+        <h1>Word Synonym Game</h1>
+        <h3 class="headerh3">A Javascript API game</h3>
+    </header>
+    <div class="gameArea">
+
+        <div class="gameCard">
+
+            <div class="startModal">
+                <div class="startGameTextDiv">
+                    <h3 class='h3one'>Fancy yourself a wordsmith...</h3>
+                    <h3 class='h3two'>Press start and lets find out</h3>
+                    <h3 class='h3three'>Unless of course...</h3>
+                    <h3 class='h3four'>Your <span class='scareslideshow'> scared</span></h3>
+                 </div>
+                 <button class="playBtn">Play</button>
+            </div>
+
+
+            <div class="gameModal">
+              <h4>Timer:<span class='timer'></span></h4>
+              <div class="scoreSpan">
+                <h3>Correct:<span class='correct'></span></h3>
+                <h3>Wrong:<span class='wrong'></span></h3>
+              </div>
+              <h3>CurrentWord:<span class='currentword'></span></h3>
+
+              <div class="radioDiv">
+                <label class='label1' for="fast">Fast</label>
+                <input class='radioinput radioinputone' type="radio" name="question" value="fast">
+                <label class='label2' for="slow">Slow</label>
+                <input class='radioinput radioinputtwo' type="radio" name="question" value="slow">
+                <label class='label3' for="smart">Smart</label>
+                <input class='radioinput radioinputthree' type="radio" name="question" value="smart">
+                <label class='label4' for="red">Red</label>
+                <input class='radioinput radioinputfour' type="radio" name="question" value="red">
+              </div>
+              <button class="clickBtn">Click</button>
+            </div>
+          
+        </div>
+
+       
+    </div>
+
+
+    <footer>
+        <p>Footer&copy;</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="timer.js"></script>
+    <script src="play.js"></script>
+</body>
+</html>
